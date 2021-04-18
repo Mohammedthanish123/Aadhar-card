@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IdentityRepositoryModelStoreContainer" CdmEntityContainer="IdentityRepositoryEntities">
+    <EntitySetMapping Name="PersonIdentities">
+      <EntityTypeMapping TypeName="IdentityRepositoryModel.PersonIdentity">
+        <MappingFragment StoreEntitySet="PersonIdentity">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PersonName" ColumnName="PersonName" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="AdhaarNumber" ColumnName="AdhaarNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

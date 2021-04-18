@@ -1,0 +1,15 @@
+c:\users\administrator\documents\visual studio 2012\Projects\AdhaarCard1\AdhaarCard\bin\Debug\AdhaarCard.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\bin\Debug\AdhaarCard.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\bin\Debug\AdhaarCard.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\bin\Debug\AdhaarCard.exe.manifest
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\bin\Debug\AdhaarCard.application
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.exe.manifest
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\AdhaarCard1\AdhaarCard\obj\Debug\AdhaarCard.application

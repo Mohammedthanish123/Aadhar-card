@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AdhaarCard.exe" version="1.0.0.0" publicKeyToken="25c4ddb07dd0ca56" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AdhaarCard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AdhaarCard.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AdhaarCard.exe" size="13824">
+      <assemblyIdentity name="AdhaarCard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ME1yUj3GtWiDkj99l4C2O4WVrTJzqXb77sJGCIj4qO4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="1116760">
+      <assemblyIdentity name="EntityFramework" version="5.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PoNKnbJ6KecCojr5W66/YqltD4tkc9jUL2AUPZPv3LU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AdhaarCard.exe.config" size="549">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UAIHi/O+W3QD0VOluPbTEryy/EWvnpmLt3rNIjjTvSI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-JAVA\Administrator" issuerKeyHash="6db924fe2d66b25bd85d12d304bea38f137f7da0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WF99BkcYAJqBW2RgBGQAPl1KkKGgW+cYeXrcxgedaB8=</DigestValue></Reference></SignedInfo><SignatureValue>RsyLrw1eewoQ50buKfU110ArvAu/1OnektbqEw3pX4kt9YRPFlw9owdeizcZipvCQ4oXohY9EIWDmtQ22HojYgjEQKHyd0tc7zjO7A0QSuhnE+2JV6DyVIPg4rnjColUGYyg3RRow466e3ZAqRQhJ4aWk34RmokrDKqN1pHWZTE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0Wmym7j2ZrceMI540z3cP25kuIQ6YmGTYdQz81WXosnHUnSWo+LzjLmpVi8lax5iud1m9uf+ePA19W8YbuV3qI09D3wfsvIz2pkRq5iZco0DYqPLabcPaVaemhIoPQ99T8QSSiuEeU1xfHJI1ylmYinFqbVpiFlLvyROUCZpbnk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1f689d07c6dc7a7918e75ba0a1904a5d3e00640460645b819a001847067d5f58" Description="" Url=""><as:assemblyIdentity name="AdhaarCard.exe" version="1.0.0.0" publicKeyToken="25c4ddb07dd0ca56" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-JAVA\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3r1RRCpwoO+0KMSxTgDLFd/CP88Xoe07OF6IfS3nyR4=</DigestValue></Reference></SignedInfo><SignatureValue>HsIQJIyMlcwbKjpnTYza4rwfVQNJlAjKkkuupDlAHUHI+vRomeOaIPTQW9zmPsgKYlp5msUkGZrTw0XCfnfZpWdcCMCO/parVk/aOiDoSgMpAmvOI8Zg2M/+Ziup6aG/Fl7EsBj7y1r0UMww7vK0eF91P5zA5oOKt1HXM1I0+c4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0Wmym7j2ZrceMI540z3cP25kuIQ6YmGTYdQz81WXosnHUnSWo+LzjLmpVi8lax5iud1m9uf+ePA19W8YbuV3qI09D3wfsvIz2pkRq5iZco0DYqPLabcPaVaemhIoPQ99T8QSSiuEeU1xfHJI1ylmYinFqbVpiFlLvyROUCZpbnk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQZ8Zx5Rz4o6tJzLz7gx3F9jANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQARABFAFMASwBUAE8AUAAtAEoAQQBWAEEAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTIxMDQxMTA4MzI0OFoXDTIyMDQxMTE0MzI0OFowPzE9MDsGA1UEAx40AEQARQBTAEsAVABPAFAALQBKAEEAVgBBAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0Wmym7j2ZrceMI540z3cP25kuIQ6YmGTYdQz81WXosnHUnSWo+LzjLmpVi8lax5iud1m9uf+ePA19W8YbuV3qI09D3wfsvIz2pkRq5iZco0DYqPLabcPaVaemhIoPQ99T8QSSiuEeU1xfHJI1ylmYinFqbVpiFlLvyROUCZpbnkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDHNdTD8pc8MbJEQitq/8hi6lcOPeB0/rSwRne/EfGkMWL53fYz/wRpxiIloVfF9XoAmVktL9AE9I+sMkZ/3ijy4GCsAHF81n46rxhguBFQSh8PKHqk3X0I+O70siJun+JZMDq8hJ+bn74qaF8isxiHul2LHmMDD5hiTMIIUFppfA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
